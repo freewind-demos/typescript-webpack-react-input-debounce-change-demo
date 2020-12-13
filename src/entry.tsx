@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom'
 import { Hello } from './hello'
 
 ReactDOM.render(
-  <Hello/>,
+  <Hello onChange={(name) => console.log('### changedName: ', name)}/>,
   document.body
 )
